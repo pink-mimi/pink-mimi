@@ -27,6 +27,10 @@
 | 页面、组件与有趣的动效 | 编程助手、Skills 与实用工具 | ESP32 与 AI 聊天机器人 |
 | [前端开发与设计](https://github.com/stars/pink-mimi/lists/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%8E%E8%AE%BE%E8%AE%A1) | [AI 编程技能](https://github.com/stars/pink-mimi/lists/ai-%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD) | [小智 ESP32](https://github.com/78/xiaozhi-esp32) |
 
+## 项目中用到
+
+<img src="./assets/tech-stack.svg" width="620" alt="项目中用到的工具：TypeScript、Electron、Node.js 和 esbuild" />
+
 ## 我的收藏航线
 
 [AI 工具](https://github.com/stars/pink-mimi/lists/ai-%E5%B7%A5%E5%85%B7) · [AI 视频](https://github.com/stars/pink-mimi/lists/ai-%E8%A7%86%E9%A2%91) · [AI 编程技能](https://github.com/stars/pink-mimi/lists/ai-%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD) · [DeepSeek 插件生态](https://github.com/stars/pink-mimi/lists/deepseek-%E6%8F%92%E4%BB%B6%E7%94%9F%E6%80%81) · [前端开发与设计](https://github.com/stars/pink-mimi/lists/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%8E%E8%AE%BE%E8%AE%A1) · [面试与知识体系](https://github.com/stars/pink-mimi/lists/%E9%9D%A2%E8%AF%95%E4%B8%8E%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB)
