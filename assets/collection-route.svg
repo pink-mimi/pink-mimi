@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="275" viewBox="0 0 820 275" role="img" aria-labelledby="map-title">
+<title id="map-title">收藏航线地图，连接七个 GitHub 收藏分组</title>
+<defs>
+  <linearGradient id="sea" x2="1" y2="1"><stop stop-color="#063f71"/><stop offset="1" stop-color="#097c91"/></linearGradient>
+  <pattern id="waves" width="71" height="39" patternUnits="userSpaceOnUse"><path d="M3 16q8-4 16 0t16 0m12 15q6-3 12 0" fill="none" stroke="#b4f4ed" opacity=".16"/></pattern>
+</defs>
+<style>
+  text{font:600 20px Microsoft YaHei, Noto Sans CJK SC, sans-serif;fill:#f4fcff;paint-order:stroke;stroke:#073752;stroke-width:3px;stroke-linejoin:round}
+  .trace{stroke-dasharray:1;animation:trace 4.25s ease-out both}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 550ms ease-out both}
+  @keyframes trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes pulse{from{transform:scale(.55);opacity:.55}65%{transform:scale(1.7)}to{transform:scale(1);opacity:1}}
+  @media(prefers-reduced-motion:reduce){.trace,.pulse{animation:none}}
+</style>
+<rect width="820" height="275" rx="12" fill="url(#sea)"/>
+<rect width="820" height="275" rx="12" fill="url(#waves)"/>
+<path d="M115 105 Q180 55 302 71 T487 113 T696 77 Q793 141 645 198 Q529 230 407 175 Q302 143 182 205" fill="none" stroke="#95e4e7" stroke-opacity=".4" stroke-width="2" stroke-dasharray="4 6"/>
+<path class="trace" d="M115 105 Q180 55 302 71 T487 113 T696 77 Q793 141 645 198 Q529 230 407 175 Q302 143 182 205" pathLength="1" fill="none" stroke="#aaf5ea" stroke-width="2" opacity=".8"/>
+
+    <g transform="translate(115 105)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:0s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">AI 工具</text>
+    </g>
+    <g transform="translate(302 71)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:0.61s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">AI 视频</text>
+    </g>
+    <g transform="translate(487 113)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:1.22s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">AI 编程技能</text>
+    </g>
+    <g transform="translate(696 77)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:1.83s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">DeepSeek 插件生态</text>
+    </g>
+    <g transform="translate(645 198)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:2.44s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">网络与设备工具</text>
+    </g>
+    <g transform="translate(407 175)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:3.05s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">面试与知识体系</text>
+    </g>
+    <g transform="translate(182 205)">
+      <ellipse cy="4" rx="31" ry="15" fill="#72d4ca" opacity=".53"/>
+      <path d="M-24 2Q-27-5-17-9Q-12-18 0-13Q13-17 19-7Q31 0 19 7Q12 14-6 10Q-21 12-24 2Z" fill="#fff1be" stroke="#ffdc92"/>
+      <path d="M-16 1Q-10-10 1-8Q8-12 15-4Q16 4 7 5Q-6 3-16 1" fill="#40a98d"/>
+      <circle class="pulse" style="animation-delay:3.66s" cy="-3" r="5" fill="#ff8165" stroke="#fff1d5" stroke-width="2"/>
+      <text y="34" text-anchor="middle">前端开发与设计</text>
+    </g>
+</svg>
